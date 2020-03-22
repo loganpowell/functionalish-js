@@ -18,14 +18,20 @@
     "@thi.ng/rstream-csp": "^2.0.7",
     "@thi.ng/transducers-hdom": "^2.0.39",
     "node-fetch": "^2.6.0",
-    "styled-system-hdom": "^0.1.4"
+    "styled-system-hdom": "^0.1.4",
+    "@thi.ng/arrays": "^0.3.0",
+    "@thi.ng/bench": "^1.0.10",
+    "chalk": "^3.0.0",
+    "console-time": "^1.0.9",
+    "console.table": "^0.10.0"
   },
   "prettier": {
     "arrowParens": "avoid",
-    "printWidth": 100,
+    "printWidth": 80,
     "bracketSpacing": true,
     "semi": false,
     "tabWidth": 2,
-    "trailingComma": "none"
+    "trailingComma": "none",
+    "endOfLine": "lf"
   }
 }

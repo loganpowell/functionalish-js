@@ -1,0 +1,7 @@
+{
+  "name": "hello",
+  "profile": "your-aws-profile",
+  "regions": [
+    "us-east-1"
+  ]
+}

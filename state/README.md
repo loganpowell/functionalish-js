@@ -1,0 +1,3 @@
+## State
+
+If it weren't for state, this entire section wouldn't be necessary. However, stateful functions are going to happen whether you like it or not. The key is to deal with state in the least bug-inducing way...
