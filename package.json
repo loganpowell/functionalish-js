@@ -1,0 +1,31 @@
+{
+  "name": "functionalish-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rm -rf .cache build dist",
+    "build": "yarn clean && parcel build src/index.html -d dist --no-source-maps --no-cache --detailed-report --public-url ./",
+    "start": "parcel src/index.html -p 8080 --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@thi.ng/csp": "^1.1.14",
+    "@thi.ng/router": "^2.0.13",
+    "@thi.ng/rstream": "^3.0.7",
+    "@thi.ng/rstream-csp": "^2.0.7",
+    "@thi.ng/transducers-hdom": "^2.0.39",
+    "node-fetch": "^2.6.0",
+    "styled-system-hdom": "^0.1.4"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "printWidth": 100,
+    "bracketSpacing": true,
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  }
+}
